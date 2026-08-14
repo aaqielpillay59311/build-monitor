@@ -1,0 +1,43 @@
+name: check builds
+
+on:
+  schedule:
+    # Every 6 hours. Frequent enough that the page is never badly stale,
+    # infrequent enough that it is not hammering anyone's origin.
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["builds.json", "check.mjs", ".github/workflows/check.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: check-builds
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Probe every build
+        run: node check.mjs
+
+      - name: Commit the result if it changed
+        run: |
+          git config user.name  "build-monitor"
+          git config user.email "action@github.com"
+          git add status.json
+          if git diff --staged --quiet; then
+            echo "no change"
+          else
+            git commit -m "status: $(node -p "const s=require('./status.json');\`\${s.summary.ok}/\${s.summary.total} up\`")"
+            git push
+          fi
