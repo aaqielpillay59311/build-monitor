@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-29T11:51:05.112Z",
+  "checked_at": "2026-08-29T15:49:09.688Z",
   "source": "https://github.com/aaqielpillay59311/build-monitor",
   "method": "HTTP GET, redirects followed, 20s timeout, 2 attempts before a URL is called down",
   "summary": {
@@ -7,7 +7,7 @@
     "ok": 18,
     "down": 0,
     "all_ok": true,
-    "median_ms_of_passing": 260
+    "median_ms_of_passing": 208
   },
   "results": [
     {
@@ -15,7 +15,7 @@
       "host": "artificial-corner-preview.vercel.app",
       "url": "https://artificial-corner-preview.vercel.app",
       "status": 200,
-      "ms": 312,
+      "ms": 229,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -25,7 +25,7 @@
       "host": "animationobsessive-site-preview.vercel.app",
       "url": "https://animationobsessive-site-preview.vercel.app",
       "status": 200,
-      "ms": 245,
+      "ms": 161,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -35,7 +35,7 @@
       "host": "lukecadell-site-preview.vercel.app",
       "url": "https://lukecadell-site-preview.vercel.app",
       "status": 200,
-      "ms": 281,
+      "ms": 195,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -45,7 +45,7 @@
       "host": "virgil-video-deploy.vercel.app",
       "url": "https://virgil-video-deploy.vercel.app",
       "status": 200,
-      "ms": 294,
+      "ms": 208,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -55,7 +55,7 @@
       "host": "machines-words.com",
       "url": "https://machines-words.com",
       "status": 200,
-      "ms": 726,
+      "ms": 477,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -65,7 +65,7 @@
       "host": "capemed-plus.vercel.app",
       "url": "https://capemed-plus.vercel.app",
       "status": 200,
-      "ms": 696,
+      "ms": 760,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -75,7 +75,7 @@
       "host": "golden-hour-three.vercel.app",
       "url": "https://golden-hour-three.vercel.app",
       "status": 200,
-      "ms": 201,
+      "ms": 205,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -85,7 +85,7 @@
       "host": "cape-timber-works.vercel.app",
       "url": "https://cape-timber-works.vercel.app",
       "status": 200,
-      "ms": 212,
+      "ms": 161,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -105,7 +105,7 @@
       "host": "just-do-decking.vercel.app",
       "url": "https://just-do-decking.vercel.app",
       "status": 200,
-      "ms": 136,
+      "ms": 158,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -115,7 +115,7 @@
       "host": "decking-pro.vercel.app",
       "url": "https://decking-pro.vercel.app",
       "status": 200,
-      "ms": 187,
+      "ms": 209,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -125,7 +125,7 @@
       "host": "trafalgar-fuels.vercel.app",
       "url": "https://trafalgar-fuels.vercel.app",
       "status": 200,
-      "ms": 260,
+      "ms": 185,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -135,7 +135,7 @@
       "host": "khethimpilo-scrollfilm.vercel.app",
       "url": "https://khethimpilo-scrollfilm.vercel.app",
       "status": 200,
-      "ms": 275,
+      "ms": 320,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -145,7 +145,7 @@
       "host": "parkhealth.vercel.app",
       "url": "https://parkhealth.vercel.app",
       "status": 200,
-      "ms": 320,
+      "ms": 273,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -155,7 +155,7 @@
       "host": "signature-gardens.vercel.app",
       "url": "https://signature-gardens.vercel.app",
       "status": 200,
-      "ms": 173,
+      "ms": 142,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -165,7 +165,7 @@
       "host": "tile-roof.vercel.app",
       "url": "https://tile-roof.vercel.app",
       "status": 200,
-      "ms": 208,
+      "ms": 151,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -175,7 +175,7 @@
       "host": "debt-free-planner-liart.vercel.app",
       "url": "https://debt-free-planner-liart.vercel.app",
       "status": 200,
-      "ms": 148,
+      "ms": 239,
       "ok": true,
       "attempts": 1,
       "error": null
@@ -185,7 +185,7 @@
       "host": "capemed-emr-za.vercel.app",
       "url": "https://capemed-emr-za.vercel.app",
       "status": 200,
-      "ms": 982,
+      "ms": 1035,
       "ok": true,
       "attempts": 1,
       "error": null
